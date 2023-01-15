@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Chessboard from '../components/Chessboard';
+import ChessGame from '../components/ChessGame';
 
 export default function Home() {
 	return (
 		<div className="">
-			<Chessboard />
+			<ChessGame />
 		</div>
 	);
 }
